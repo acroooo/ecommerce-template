@@ -4,42 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compu Garden</title>
+    <title>Intel Informática</title>
 
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+
+    <!-- Styles CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1 class="color-black">Compu <span class="color-green-dark">Garden 🌱</span></h1>        
+        <h1 class="title-site">Intel <span>Informática</span></h1>        
     </header>
     <!-- Navegacion -->
-    <nav class="nav">
-        <a class="enlace-nav" href="index.html">Inicio</a>
-        <a class="enlace-nav" href="pages/nosotros.html">Nosotros</a>
-        <a class="enlace-nav" href="pages/tienda.html">Tienda</a>
-        <a class="enlace-nav" href="pages/blog.html">Blog</a>
-        <a class="enlace-nav" href="pages/galeria.html">Galeria</a>
-        <a class="enlace-nav" href="pages/contacto.html">Contacto</a>
-    </nav>
+    <div class="container-menu">
+        <nav class="menu container color-black">
+            <a class="enlace-nav" href="index.html">Inicio</a>
+            <a class="enlace-nav" href="pages/nosotros.html">Nosotros</a>
+            <a class="enlace-nav" href="pages/tienda.html">Tienda</a>
+            <a class="enlace-nav" href="pages/blog.html">Blog</a>
+            <a class="enlace-nav" href="pages/galeria.html">Galeria</a>
+            <a class="enlace-nav" href="pages/contacto.html">Contacto</a>
+        </nav>    
+    </div>
+
     <!-- Fin Navegacion -->
+
+    <!-- image Hero -->
+    <div class="hero"></div>
+
     <!-- seccion principal -->
     <main>
         <!-- Categorías -->
-        <section>
+        <section class="container">
             <h2>Categorías de producto</h2>
+            <div class="categories">
                 <div>
-                <img src="../assets/img/laptops_category.jpg" alt="Laptops category">
-                <a href="#">Laptops</a>
+                    <img class="category-img" src="../assets/img/laptops_category.jpg" alt="Laptops category">
+                    <a href="#">Laptops</a>
                 </div>
                 <div>
-                    <img src="../assets/img/accesories_category.jpg" alt="Accesories category">
+                    <img class="category-img" src="../assets/img/accesories_category.jpg" alt="Accesories category">
                     <a href="#">Accesorios</a>
                 </div>
                 <div>
-                    <img src="../assets/img/pc_gamer_category.jpg" alt="PC Gamer category">
+                    <img class="category-img" src="../assets/img/pc_gamer_category.jpg" alt="PC Gamer category">
                     <a href="#">PC Gamer</a>
                 </div>
+            </div>
             </section>
         <!-- Nosotros -->
         <section>

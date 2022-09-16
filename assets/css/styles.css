@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 23px;
+}
+
+/* anidar */
+h1 span{
+    color: #8758FF;
+}
+
+/* navegacion */
+.enlace-nav{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #8758FF
+}
+
+.nav{
+    background-color: #e1e1e1;
+}
+.nav a {
+    text-transform: uppercase;
+}
+
+
+
+/* company configuration */
+
+
+/* company colors */
+
+.color-black{
+    color: #041B15;
+}
+
+.color-green-dark{
+    color: #136F63;
+}
+
+.color-green-medium{
+    color: #22AAA1;
+}
+
+.color-green-light{
+    color: #4CE0D2;
+}
+
+.color-white{
+    color: #F5F5F5;
+}
+
+.bg-color-black{
+    background-color: #041B15;
+}
+
+.bg-color-green-dark{
+    background-color: #136F63;
+}
+
+.bg-color-green-medium{
+    background-color: #22AAA1;
+}
+
+.bg-color-green-light{
+    background-color: #4CE0D2;
+}
+
+.bg-color-white{
+    background-color: #F5F5F5;
+}
+
+/* company fonts */
+
+.font-size-xxl{
+    font-size: 40px;
+}
+
+.font-size-xl{
+    font-size: 30px;
+}
+
+.font-size-l{
+    font-size: 20px;
+}
+
+.font-size-m{
+    font-size: 16px;
+}
+
+.font-size-s{
+    font-size: 14px;
+}
+
+.font-size-xs{
+    font-size: 12px;
+}
+
+.font-size-xxs{
+    font-size: 10px;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+.font-underline{
+    text-decoration: underline;
+}
+
+

@@ -19,15 +19,22 @@
 }
 
 html {
-    font-family: var(--font-family);
+    box-sizing: border-box;
     font-size: 62.5%; /* 1rem = 10px */
 }
 
+
 *, *:before, *:after{
-    box-sizing: border-box;
+    box-sizing: inherit; /* Cuando agreguemos width a un elemento, y despues un padding, no modifica
+    el tamaño del elemento */
 }
 
 /* Globals */
+
+body {
+    font-family: var(--font-family);
+    line-height: 2;
+}
 
 h1{
     font-size: var(--xl);
@@ -134,3 +141,27 @@ box-sizing: content-box
 
 adaptable
 box-sizing: border-box */
+
+/* BEM
+block__element--modifier
+.card {}
+.card__title {}
+.card__description {} 
+.card__big--active {}
+
+
+UTILIDADES
+.text-center {}
+.color-red-100 {}
+.p-2 {}
+
+MODULOS
+.card img {}
+.card h2 {}
+.card p {}
+
+
+SMACSS -> arquitectura escalable
+#header, #article, #footer {}
+*/
+*/

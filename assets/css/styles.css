@@ -11,7 +11,7 @@
     --white: #F5F5F5;
     --xl: 4rem;
     --l: 3rem;
-    --m: 2rem;
+    --m: 1.5rem;
     --s: 1rem;
     --xs: 0.5rem;
     --xxs: 0.25rem;
@@ -79,6 +79,12 @@ header h1 span {
     justify-content: space-evenly; /* si es row, justify content es horizontal */
 }
 
+.enlace-nav{
+    font-size: var(--m);
+    color: var(--blue);
+    font-weight: 600;
+}
+
 /* Hero */
 .hero{
     width: 100%;
@@ -108,7 +114,7 @@ header h1 span {
 
 .category-header h2{
     text-align:center;
-    font-size: var(--xl);
+    font-size: var(--l);
 }
 
 .category-item a{

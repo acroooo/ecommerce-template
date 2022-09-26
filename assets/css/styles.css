@@ -317,7 +317,7 @@ header h1 span {
     margin-top: 8rem;
 }
 
-.text-nosotros{
+.texto-nosotros{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intel Informática | Nosotros</title>
+    <title>Intel Informática | Contacto</title>
 
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="../assets/css/normalize.css" />
@@ -31,19 +31,25 @@
     </div>
 
     <!-- Fin Navegacion -->
-
     <!-- seccion principal -->
     <main class="container">
-        <h2 class="text-center">Nosotros</h2>
-        <div class="content-nosotros">
-            <div class="imagen-nosotros">
-                <img src="../assets/img/nosotros.jpg" alt="imagen nosotros">
-            </div>
-            <div class="text-nosotros">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate blanditiis rem aspernatur maxime nostrum porro neque velit fugiat natus impedit, sed esse deserunt veniam, nihil quis atque quam error possimus.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate blanditiis rem aspernatur maxime nostrum porro neque velit fugiat natus impedit, sed esse deserunt veniam, nihil quis atque quam error possimus.</p>
-            </div>
-        </div>
+        <h2 class="text-center">Contacto</h2>
+
+        <form>           
+            <fieldset>
+                <legend>Nombre</legend>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <input type="email" id="email" placeholder="Escribe tu email" required>
+            </fieldset>
+            <fieldset>
+                <legend>Mensaje</legend>
+                <textarea id="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+            </fieldset>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
     </main>
     <!-- Footer -->
     <footer class="footer">

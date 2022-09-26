@@ -187,15 +187,6 @@ header h1 span {
     background-position: right center;
 }
 
-/* .nosotros-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 15rem;
-}
-
-.text-nosotros{
-    grid-column: 2 / 3;
-} */
 
 .nosotros-grid{
     display:flex;
@@ -317,6 +308,95 @@ header h1 span {
     margin-top: 5rem;
 }
 
+/* Nosotros page */
+.content-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 10rem;
+    margin-top: 8rem;
+}
+
+.text-nosotros{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: var(--black)
+}
+
+/* blog */
+
+.grid-blog{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+}
+
+.entry-blog{
+    border-bottom: var(--gray) 0.1rem solid;
+}
+
+.entry-blog:last-of-type{
+    border:none;
+}
+
+.entry-meta{
+    display:flex;
+    justify-content: space-between
+}
+
+/* Galery */
+.main-galery{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+.main-galery img{
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+form{
+    max-width: 50rem;
+    margin: 0 auto;
+    border: 1px solid var(--gray);
+    padding: 2rem;
+}
+legend{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--gray);
+}
+
+/* modify placeholder of input */
+input::placeholder{
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+textarea::placeholder{
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--gray);
+}
 /* flexbox 
 Para la alineacion o ditribucion de los elementos que estan dentro de un contenedor
 
@@ -353,5 +433,4 @@ MODULOS
 
 SMACSS -> arquitectura escalable
 #header, #article, #footer {}
-*/
 */
